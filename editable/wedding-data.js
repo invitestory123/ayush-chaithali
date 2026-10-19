@@ -1,0 +1,147 @@
+/**
+ * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
+ * Chaitali Poojari & Ayush Rai Wedding Invitation
+ */
+
+window.WEDDING_DATA = {
+  couple: {
+    bride: "Chaitali",
+    groom: "Ayush",
+    brideFull: "Chaitali Poojari",
+    groomFull: "Ayush Rai",
+    initials: "C & A",
+    title: "Chaitali & Ayush",
+  },
+  dateISO: "2026-12-09T16:00:00+05:30",
+  dateLabel: "Wednesday, 9 December 2026",
+  timeLabel: "4:00 PM – 7:00 PM",
+  venue: {
+    name: "Hotel Sea N Rock",
+    address: "Thane Ghodbunder Road, Western Express Highway, Mira Road East, Mumbai, Maharashtra 401107",
+    mapsUrl: "https://share.google/7p2zoPWsDFTgVdPYi",
+    mapsQuery: "Hotel Sea N Rock Mira Road East Mumbai",
+  },
+  dressCode: "Traditional Indian — Light & Dark colors",
+  hero: {
+    kicker: "Together with our families",
+    eyebrow: "Save the Date",
+    blessing: "Two souls, one sacred journey",
+  },
+  story: {
+    title: "The Bride & The Groom",
+    subtitle: "With the divine blessings of our families",
+    bride: {
+      name: "Chaitali Poojari",
+      role: "The Bride",
+      parents: "D/O Shri. Ramesh Poojari & Shrimati. Sarojini Poojari",
+      text: "Daughter of Shri. Ramesh Poojari & Shrimati. Sarojini Poojari. Stepping into this new dawn with grace, love, and a heart full of cherished dreams.",
+    },
+    groom: {
+      name: "Ayush Rai",
+      role: "The Groom",
+      parents: "S/O Shri. Vishnudeo Rai & Shrimati. Neelam Rai",
+      text: "Son of Shri. Vishnudeo Rai & Shrimati. Neelam Rai. Ready to embark on life's sweetest journey hand in hand, with boundless love and devotion.",
+    },
+  },
+  scratchCard: {
+    title: "Scratch to Reveal Our Date",
+    subtitle: "Rub gently to discover the wedding day",
+    revealedDate: "09th December 2026",
+    revealedTime: "Wednesday · 4:00 PM – 7:00 PM",
+    revealedVenue: "Hotel Sea N Rock, Mumbai",
+  },
+  functions: [
+    {
+      day: "8th December 2026",
+      dayTitle: "Prior Functions",
+      events: [
+        {
+          name: "Mehendi",
+          time: "10:00 AM – 2:00 PM",
+          venue: "Banquet Hall",
+          dressCode: "Light green / Peach hue 🦚🌿",
+          illustration: "./editable/assets/illustration-mehendi.jpg",
+          desc: "Intricate henna designs, vibrant songs, and sweet beginnings as the celebrations unfold.",
+        },
+        {
+          name: "Tilak Ceremony",
+          time: "3:00 PM",
+          venue: "Banquet Hall",
+          dressCode: "Festive Indian Attire 🪔✨",
+          illustration: "./editable/assets/illustration-tilak.jpg",
+          desc: "Auspicious blessings and traditional sacred tilak rituals welcoming the groom and families.",
+        },
+        {
+          name: "Engagement & Sangeet",
+          time: "7:30 PM onwards (7:30 PM – 11:00 PM)",
+          venue: "Banquet Hall",
+          dressCode: "Shimmer darks 💍✨",
+          illustration: "./editable/assets/illustration-sangeet.jpg",
+          desc: "Exchange of rings followed by a sparkling musical sangeet celebration of dance and joy.",
+        },
+      ],
+    },
+    {
+      day: "9th December 2026",
+      dayTitle: "Wedding Day",
+      events: [
+        {
+          name: "Haldi Ceremony",
+          time: "10:00 AM – 1:00 PM",
+          venue: "Banquet Hall",
+          dressCode: "Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)",
+          illustration: "./editable/assets/illustration-haldi.jpg",
+          desc: "Bathed in auspicious golden turmeric, surrounded by sunflowers, marigolds, and laughter.",
+        },
+        {
+          name: "Baarat Procession",
+          time: "3:30 PM",
+          venue: "Hotel Sea N Rock",
+          dressCode: "Royal Festive Indian 🎺🥁",
+          illustration: "./editable/assets/illustration-baarat.jpg",
+          desc: "A grand royal baarat procession with dhol, dance, and celebration to welcome the groom.",
+        },
+        {
+          name: "Wedding Muhurat (Vidhi & Fera)",
+          time: "4:00 PM – 7:00 PM (Vidhi & Fera 4:30 PM onwards)",
+          venue: "Open Air",
+          dressCode: "Traditional attire — Light and Dark colors 🌸🔥",
+          illustration: "./editable/assets/illustration-wedding.jpg",
+          desc: "Sacred wedding vows, exchange of varmala, and holy pheras around the agni under open skies.",
+        },
+        {
+          name: "Reception",
+          time: "8:30 PM onwards",
+          venue: "Open Air",
+          dressCode: "Traditional attire — Light and Dark colors (Shadi clothes continue) 🌷🥂",
+          illustration: "./editable/assets/illustration-reception.jpg",
+          desc: "An enchanting evening reception with dinner, blessings, and toasts. (Note: Shadi will be followed by reception from 8 PM onwards, so attire remains the same).",
+        },
+      ],
+    },
+  ],
+  footer: {
+    title: "Thank You",
+    subtitle: "For Being Part of Our Story",
+    line1: "With warm hearts and deepest gratitude,",
+    line2: "Thank you for your love, blessings, and warm wishes as we begin our forever.",
+    signoff: "With all our love, Chaitali & Ayush",
+    date: "Wednesday, 9th December 2026",
+  },
+  images: {
+    seal: "./editable/assets/invite-seal.png",
+    openVideo: "./editable/assets/invite-open.mp4",
+    lantern: "./editable/assets/lantern.png",
+    heroPalace: "./editable/assets/hero-palace.jpg",
+    bougainvillea: "./editable/assets/bougainvillea.png",
+    goldFlourish: "./editable/assets/gold-flourish.png",
+    portraitBride: "./editable/assets/portrait-bride.jpg",
+    portraitGroom: "./editable/assets/portrait-groom.jpg",
+    hotelPhoto: "./editable/assets/hotel-sea-n-rock.jpg",
+    mapPlate: "./editable/assets/map-plate.jpg",
+    weddingCar: "./editable/assets/wedding-car.png",
+    gardenCourtyard: "./editable/assets/garden-courtyard.jpg",
+    coupleLanterns: "./editable/assets/couple-lanterns.png",
+    sunsetSky: "./editable/assets/sunset-sky.jpg",
+  },
+};
