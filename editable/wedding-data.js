@@ -53,7 +53,7 @@ window.WEDDING_DATA = {
   functions: [
     {
       day: "8th December 2026",
-      dayTitle: "Prior Functions",
+      dayTitle: "",
       events: [
         {
           name: "Mehendi",
