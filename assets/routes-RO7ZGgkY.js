@@ -167,67 +167,79 @@ function Bd(){
 }
 
 function Hd(){
-  let mapsUrl = _w.venue?.mapsUrl || "https://share.google/7p2zoPWsDFTgVdPYi";
-  let functionsList = _w.functions || [];
+  let e=(0,s.useRef)(null),{scrollYProgress:t}=Yu({target:e,offset:[`start 80%`,`end 45%`]}),n=$u(t,[0,1],[0,1]);
+  let chaptersList = (_w.chapters && _w.chapters.length > 0) ? _w.chapters : [
+    {
+      no: "I",
+      when: "8TH DECEMBER 2026 • 10:00 AM – 2:00 PM",
+      title: "Mehendi Ceremony",
+      text: "Banquet Hall\nDress Code: Light green / Peach hue 🦚🌿\nAdorned with intricate henna artistry, music, and joyful beginnings as the celebrations unfold."
+    },
+    {
+      no: "II",
+      when: "8TH DECEMBER 2026 • 3:00 PM ONWARDS",
+      title: "Tilak Ceremony",
+      text: "Banquet Hall\nDress Code: Festive Indian Attire 🪔✨\nAuspicious blessings and traditional sacred tilak rituals welcoming the groom and families."
+    },
+    {
+      no: "III",
+      when: "8TH DECEMBER 2026 • 7:30 PM – 11:00 PM",
+      title: "Engagement & Sangeet",
+      text: "Banquet Hall\nDress Code: Shimmer darks 💍✨\nExchange of rings followed by a sparkling musical sangeet celebration of dance and joy."
+    },
+    {
+      no: "IV",
+      when: "9TH DECEMBER 2026 • 10:00 AM – 1:00 PM",
+      title: "Haldi Ceremony",
+      text: "Banquet Hall\nDress Code: Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)\nBathed in golden turmeric blessings with cheerful laughter, folk songs, and marigolds."
+    },
+    {
+      no: "V",
+      when: "9TH DECEMBER 2026 • 3:30 PM",
+      title: "Baarat Procession",
+      text: "Hotel Sea N Rock\nDress Code: Royal Festive Indian 🎺🥁\nA grand royal baarat procession with dhol, dance, and celebration to welcome the groom."
+    },
+    {
+      no: "VI",
+      when: "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)",
+      title: "Wedding Muhurat (Vidhi & Fera)",
+      text: "Open Air\nDress Code: Traditional attire — Light and Dark colors 🌸🔥\nSacred Vedic wedding vows, exchange of varmala, and holy pheras around the sacred agni."
+    },
+    {
+      no: "VII",
+      when: "9TH DECEMBER 2026 • 8:30 PM ONWARDS",
+      title: "Grand Reception",
+      text: "Open Air\nDress Code: Traditional attire — Light and Dark colors (Shadi clothes continue) 🌷🥂\nAn enchanting evening reception with dinner, blessings, toasts, and music under the stars."
+    }
+  ];
 
-  return (0,X.jsxs)(`section`,{id:`details`,className:`relative overflow-hidden px-5 pt-6 pb-6 sm:pt-10 sm:pb-8`,children:[
-    (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, color-mix(in oklab, var(--peach) 26%, var(--ivory)) 0%, var(--cream) 45%, var(--ivory) 100%)`}}),
-    (0,X.jsxs)(`div`,{className:`mx-auto max-w-5xl`,children:[
+  return (0,X.jsxs)(`section`,{id:`details`,className:`relative overflow-hidden px-5 pt-8 pb-14 sm:pt-12 sm:pb-20`,children:[
+    (0,X.jsx)(`img`,{src:Ud,alt:``,"aria-hidden":!0,loading:`lazy`,width:1536,height:1024,className:`absolute inset-0 -z-10 h-full w-full object-cover opacity-20`}),
+    (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--ivory) 78%, transparent) 30%, color-mix(in oklab, var(--ivory) 78%, transparent) 70%, var(--ivory) 100%)`}}),
+    (0,X.jsxs)(`div`,{className:`mx-auto max-w-2xl`,children:[
       (0,X.jsx)(Ad,{eyebrow:`Chapter Two`,title:`List of Functions`,note:`Two days of joy, traditions, and unforgettable memories`}),
-      (0,X.jsx)(kd,{className:`mt-8`}),
-      (0,X.jsx)(`div`,{className:`mt-10 sm:mt-12 space-y-20 sm:space-y-24`,children:functionsList.map((dayGroup, groupIdx)=>(0,X.jsxs)(`div`,{key:groupIdx,className:`space-y-8 sm:space-y-10 ${groupIdx > 0 ? 'pt-8 sm:pt-12 border-t border-gold/15' : ''}`,children:[
-        (0,X.jsxs)(`div`,{className:`flex items-center gap-4 justify-center text-center`,children:[
-          (0,X.jsx)(`div`,{className:`h-px w-12 sm:w-20 bg-gradient-to-r from-transparent to-[var(--gold-deep)]`}),
-          (0,X.jsxs)(`div`,{className:`inline-flex flex-col items-center`,children:[
-            dayGroup.dayTitle && dayGroup.dayTitle.toLowerCase() !== "prior functions" ? (0,X.jsx)(`span`,{className:`font-sans text-[0.62rem] tracking-[0.36em] text-gold-deep uppercase font-semibold`,children:dayGroup.dayTitle}) : null,
-            (0,X.jsx)(`h3`,{className:`text-2xl sm:text-3xl font-display text-primary mt-1`,children:dayGroup.day})
-          ]}),
-          (0,X.jsx)(`div`,{className:`h-px w-12 sm:w-20 bg-gradient-to-l from-transparent to-[var(--gold-deep)]`})
+      (0,X.jsxs)(`div`,{ref:e,className:`relative mt-12 pl-12 sm:pl-16`,children:[
+        (0,X.jsxs)(`svg`,{"aria-hidden":!0,className:`absolute top-0 left-3 h-full w-8 sm:left-5`,viewBox:`0 0 40 1400`,preserveAspectRatio:`none`,fill:`none`,children:[
+          (0,X.jsx)(Z.path,{d:`M20 0 C34 160, 6 320, 20 480 C34 640, 6 800, 20 960 C34 1120, 6 1260, 20 1400`,stroke:`var(--olive)`,strokeWidth:`2`,strokeLinecap:`round`,opacity:`0.65`,style:{pathLength:n}}),
+          [90, 280, 480, 680, 880, 1080, 1280].map((e,t)=>(0,X.jsx)(Z.ellipse,{cx:t%2?30:10,cy:e,rx:`9`,ry:`4.5`,fill:`var(--sage)`,opacity:`0.7`,transform:`rotate(${t%2?24:-24} ${t%2?30:10} ${e})`,style:{scale:n}},e))
         ]}),
-        (0,X.jsx)(`div`,{className:`grid gap-6 sm:grid-cols-2 lg:grid-cols-3`,children:dayGroup.events.map((ev, evIdx)=>(0,X.jsx)($,{
-          delay:evIdx*0.06,
-          key:ev.name,
-          children:(0,X.jsxs)(Z.div,{
-            whileHover:{y:-6},
-            transition:{type:`spring`,stiffness:180,damping:18},
-            className:`plate paper-grain flex flex-col overflow-hidden rounded-[2rem] p-5 border border-gold/20 shadow-sm`,
+        (0,X.jsx)(`ol`,{className:`space-y-8 sm:space-y-10`,children:chaptersList.map((e,t)=>(
+          (0,X.jsx)(`li`,{key:e.title || t,children:(0,X.jsx)($,{delay:t*.05,children:(0,X.jsxs)(Z.div,{
+            whileHover:{x:4},
+            transition:{type:`spring`,stiffness:200,damping:20},
+            className:`plate paper-grain relative rounded-[1.8rem] px-6 py-6 sm:px-8 sm:py-7 shadow-sm border border-gold/20`,
             children:[
-              (0,X.jsxs)(`div`,{className:`relative w-full aspect-[4/3] overflow-hidden rounded-[1.4rem] bg-[var(--cream)]`,children:[
-                (0,X.jsx)(`img`,{
-                  src:ev.illustration,
-                  alt:ev.name,
-                  loading:`lazy`,
-                  width:600,
-                  height:450,
-                  className:`h-full w-full object-cover transition-transform duration-700 hover:scale-105`
-                }),
-                (0,X.jsx)(`span`,{className:`absolute top-3 right-3 rounded-full bg-[color-mix(in_oklab,var(--ivory)_85%,transparent)] px-3 py-1 font-sans text-[0.58rem] tracking-[0.2em] text-primary uppercase backdrop-blur-md border border-gold/20`,children:ev.venue})
-              ]}),
-              (0,X.jsxs)(`div`,{className:`mt-4 flex flex-1 flex-col justify-between text-left`,children:[
-                (0,X.jsxs)(`div`,{children:[
-                  (0,X.jsx)(`h4`,{className:`text-xl sm:text-2xl font-display text-primary`,children:ev.name}),
-                  (0,X.jsxs)(`p`,{className:`mt-1 inline-flex items-center gap-1.5 font-sans text-[0.64rem] font-semibold tracking-wider text-gold-deep uppercase`,children:[
-                    (0,X.jsx)(gd,{size:13,className:`text-gold-deep`}),
-                    ev.time
-                  ]}),
-                  (0,X.jsx)(`p`,{className:`mt-2.5 text-xs leading-relaxed text-muted-foreground`,children:ev.desc})
-                ]}),
-                ev.dressCode && (0,X.jsxs)(`div`,{className:`mt-4 rounded-xl bg-[color-mix(in_oklab,var(--blush)_20%,transparent)] p-3 border border-gold/15`,children:[
-                  (0,X.jsxs)(`p`,{className:`font-sans text-[0.55rem] tracking-[0.28em] text-gold-deep uppercase font-semibold flex items-center gap-1.5`,children:[
-                    (0,X.jsx)(yd,{size:12,className:`text-gold-deep`}),
-                    `Dress Code / Color Hue`
-                  ]}),
-                  (0,X.jsx)(`p`,{className:`mt-1 text-xs font-medium text-primary`,children:ev.dressCode})
-                ]})
-              ]})
+              (0,X.jsx)(`span`,{className:`absolute -left-[3.15rem] top-7 flex h-8 w-8 items-center justify-center rounded-full font-display text-xs text-primary-foreground sm:-left-[4.2rem] shadow-md font-semibold`,style:{background:`var(--gradient-gold)`},children:e.no}),
+              (0,X.jsx)(`p`,{className:`font-sans text-[0.58rem] tracking-[0.34em] text-gold-deep uppercase font-semibold`,children:e.when}),
+              (0,X.jsx)(`h3`,{className:`mt-2 text-xl text-primary sm:text-2xl font-display`,children:e.title}),
+              (0,X.jsx)(`p`,{className:`mt-3 text-sm leading-relaxed text-muted-foreground whitespace-pre-line`,children:e.text})
             ]
-          })
-        }))})
-      ]}))})
+          })})})
+        ))})
+      ]})
     ]})
   ]});
 }
-
 function Wd(){
   let mapsUrl = _w.venue?.mapsUrl || "https://share.google/7p2zoPWsDFTgVdPYi";
   let hotelPhoto = _w.images?.hotelPhoto || "./editable/assets/hotel-sea-n-rock.jpg";
@@ -277,6 +289,7 @@ function Wd(){
     ]})
   ]});
 }
+var Ud = (_wi && _wi.gardenCourtyard) || "editable/assets/garden-courtyard.jpg";
 var _wi = (typeof _w !== "undefined" && _w.images) || (typeof window !== "undefined" && window.WEDDING_DATA && window.WEDDING_DATA.images) || {};
 var Rd = _wi.mapPlate || "editable/assets/map-plate.jpg";
 var zd = _wi.weddingCar || "editable/assets/wedding-car.png";

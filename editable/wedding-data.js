@@ -120,6 +120,50 @@ window.WEDDING_DATA = {
       ],
     },
   ],
+    chapters: [
+    {
+      no: "I",
+      when: "8TH DECEMBER 2026 • 10:00 AM – 2:00 PM",
+      title: "Mehendi Ceremony",
+      text: "Banquet Hall\nDress Code: Light green / Peach hue 🦚🌿\nIntricate henna designs, vibrant songs, and sweet beginnings as the celebrations unfold.",
+    },
+    {
+      no: "II",
+      when: "8TH DECEMBER 2026 • 3:00 PM ONWARDS",
+      title: "Tilak Ceremony",
+      text: "Banquet Hall\nDress Code: Festive Indian Attire 🪔✨\nAuspicious blessings and traditional sacred tilak rituals welcoming the groom and families.",
+    },
+    {
+      no: "III",
+      when: "8TH DECEMBER 2026 • 7:30 PM – 11:00 PM",
+      title: "Engagement & Sangeet",
+      text: "Banquet Hall\nDress Code: Shimmer darks 💍✨\nExchange of rings followed by a sparkling musical sangeet celebration of dance and joy.",
+    },
+    {
+      no: "IV",
+      when: "9TH DECEMBER 2026 • 10:00 AM – 1:00 PM",
+      title: "Haldi Ceremony",
+      text: "Banquet Hall\nDress Code: Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)\nBathed in golden turmeric blessings with cheerful laughter, folk songs, and marigolds.",
+    },
+    {
+      no: "V",
+      when: "9TH DECEMBER 2026 • 3:30 PM",
+      title: "Baarat Procession",
+      text: "Hotel Sea N Rock\nDress Code: Royal Festive Indian 🎺🥁\nA grand royal baarat procession with dhol, dance, and celebration to welcome the groom.",
+    },
+    {
+      no: "VI",
+      when: "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)",
+      title: "Wedding Muhurat (Vidhi & Fera)",
+      text: "Open Air\nDress Code: Traditional attire — Light and Dark colors 🌸🔥\nSacred Vedic wedding vows, exchange of varmala, and holy pheras around the sacred agni.",
+    },
+    {
+      no: "VII",
+      when: "9TH DECEMBER 2026 • 8:30 PM ONWARDS",
+      title: "Grand Reception",
+      text: "Open Air\nDress Code: Traditional attire — Light and Dark colors (Shadi clothes continue) 🌷🥂\nAn enchanting evening reception with dinner, blessings, toasts, and music under the stars.",
+    },
+  ],
   footer: {
     title: "Thank You",
     subtitle: "For Being Part of Our Story",
