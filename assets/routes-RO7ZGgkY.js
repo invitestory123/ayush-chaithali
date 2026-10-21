@@ -151,7 +151,12 @@ function Ld(){
           children:`Tap To Reveal Date`
         })
       ]}),
-      (0,X.jsx)(`div`,{className:`mt-16 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
+      (0,X.jsxs)($,{delay:0.1,className:`my-14 sm:my-20 flex flex-col items-center justify-center text-center`,children:[
+        (0,X.jsx)(`div`,{className:`h-px w-20 sm:w-28 mb-3 sm:mb-4 origin-center opacity-70`,style:{background:`var(--gradient-gold)`}}),
+        (0,X.jsx)(`p`,{className:`font-display text-2xl sm:text-3xl tracking-widest text-gold-deep font-semibold drop-shadow-sm`,style:{color:`var(--gold-deep)`},children:_w.scratchCard?.weddingAlert || "The Wedding Alert"}),
+        (0,X.jsx)(`div`,{className:`h-px w-20 sm:w-28 mt-3 sm:mt-4 origin-center opacity-70`,style:{background:`var(--gradient-gold)`}})
+      ]}),
+      (0,X.jsx)(`div`,{className:`mt-10 sm:mt-12 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
         (0,X.jsx)(Id,{value:timeRemaining.days,label:`Days`}),
         (0,X.jsx)(Id,{value:timeRemaining.hours,label:`Hours`}),

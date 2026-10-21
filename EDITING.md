@@ -40,7 +40,7 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
 
 ## Configuration & Assets
 
-- Data configured in: `editable/wedding-data.js`
+- Data configured in: `editable/wedding-data.js` (includes `scratchCard.weddingAlert` displayed in gold above countdown)
 - Custom illustrations and assets in: `editable/assets/`
   - `portrait-bride.jpg`: Bride portrait (Chaitali)
   - `portrait-groom.jpg`: Groom portrait (Ayush)

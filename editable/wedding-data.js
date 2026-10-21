@@ -49,6 +49,7 @@ window.WEDDING_DATA = {
     revealedDate: "09th December 2026",
     revealedTime: "Wednesday · 4:00 PM – 7:00 PM",
     revealedVenue: "Hotel Sea N Rock, Mumbai",
+    weddingAlert: "The Wedding Alert",
   },
   functions: [
     {
