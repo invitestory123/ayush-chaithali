@@ -122,6 +122,11 @@ function Ld(){
     (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--lavender) 30%, var(--ivory)) 55%, color-mix(in oklab, var(--peach) 26%, var(--ivory)) 100%)`}}),
     (0,X.jsx)(Cd,{count:6,className:`opacity-70`,travel:1.1}),
     (0,X.jsxs)(`div`,{className:`relative mx-auto max-w-3xl`,children:[
+      (0,X.jsxs)($,{delay:0.1,className:`mb-10 sm:mb-14 flex flex-col items-center justify-center text-center`,children:[
+        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mb-3 sm:mb-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}}),
+        (0,X.jsx)(`h2`,{className:`font-display text-3xl sm:text-5xl md:text-6xl tracking-wider font-semibold text-center drop-shadow-sm`,style:{color:`var(--gold-deep)`,background:`linear-gradient(110deg, #b8860b 0%, #e6ca65 28%, #ffd700 50%, #e6ca65 72%, #b8860b 100%)`,WebkitBackgroundClip:`text`,WebkitTextFillColor:`transparent`},children:_w.scratchCard?.weddingAlert || "The Wedding Alert"}),
+        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mt-3 sm:mt-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}})
+      ]}),
       (0,X.jsx)(Ad,{eyebrow:`Save The Date`,title:`Scratch to Reveal The Date`}),
       (0,X.jsx)(kd,{className:`mt-6`}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-col items-center`,children:[
@@ -151,12 +156,7 @@ function Ld(){
           children:`Tap To Reveal Date`
         })
       ]}),
-      (0,X.jsxs)($,{delay:0.1,className:`my-14 sm:my-20 flex flex-col items-center justify-center text-center`,children:[
-        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mb-3 sm:mb-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}}),
-        (0,X.jsx)(`h2`,{className:`font-display text-3xl sm:text-5xl md:text-6xl tracking-wider font-semibold text-center drop-shadow-sm`,style:{color:`var(--gold-deep)`,background:`linear-gradient(110deg, #b8860b 0%, #e6ca65 28%, #ffd700 50%, #e6ca65 72%, #b8860b 100%)`,WebkitBackgroundClip:`text`,WebkitTextFillColor:`transparent`},children:_w.scratchCard?.weddingAlert || "The Wedding Alert"}),
-        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mt-3 sm:mt-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}})
-      ]}),
-      (0,X.jsx)(`div`,{className:`mt-10 sm:mt-12 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
+      (0,X.jsx)(`div`,{className:`mt-16 sm:mt-20 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
         (0,X.jsx)(Id,{value:timeRemaining.days,label:`Days`}),
         (0,X.jsx)(Id,{value:timeRemaining.hours,label:`Hours`}),
