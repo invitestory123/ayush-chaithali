@@ -24,7 +24,8 @@ window.WEDDING_DATA = {
   dressCode: "Traditional Indian — Light & Dark colors",
   hero: {
     kicker: "Together with our families",
-    eyebrow: "Save the Date",
+    celebrateText: "We celebrate the wedding of",
+    scrollText: "Scroll down",
     blessing: "Two souls, one sacred journey",
   },
   story: {
