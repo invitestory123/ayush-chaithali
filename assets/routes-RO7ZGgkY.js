@@ -148,7 +148,7 @@ function Ld(){
   };
 
   return (0,X.jsxs)(`section`,{className:`relative overflow-hidden px-5 pt-20 pb-24 sm:pt-28 sm:pb-32`,children:[
-    (0,X.jsx)(`div",{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--lavender) 30%, var(--ivory)) 55%, color-mix(in oklab, var(--peach) 26%, var(--ivory)) 100%)`}}),
+    (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--lavender) 30%, var(--ivory)) 55%, color-mix(in oklab, var(--peach) 26%, var(--ivory)) 100%)`}}),
     (0,X.jsx)(Cd,{count:6,className:`opacity-70`,travel:1.1}),
     (0,X.jsxs)(`div`,{className:`relative mx-auto max-w-3xl`,children:[
       (0,X.jsx)(Ad,{eyebrow:`Save The Date`,title:`Scratch to Reveal The Date`,note:`Rub gently to discover our wedding day`}),
