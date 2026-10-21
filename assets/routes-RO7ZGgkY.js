@@ -152,9 +152,9 @@ function Ld(){
         })
       ]}),
       (0,X.jsxs)($,{delay:0.1,className:`my-14 sm:my-20 flex flex-col items-center justify-center text-center`,children:[
-        (0,X.jsx)(`div`,{className:`h-px w-20 sm:w-28 mb-3 sm:mb-4 origin-center opacity-70`,style:{background:`var(--gradient-gold)`}}),
-        (0,X.jsx)(`p`,{className:`font-display text-2xl sm:text-3xl tracking-widest text-gold-deep font-semibold drop-shadow-sm`,style:{color:`var(--gold-deep)`},children:_w.scratchCard?.weddingAlert || "The Wedding Alert"}),
-        (0,X.jsx)(`div`,{className:`h-px w-20 sm:w-28 mt-3 sm:mt-4 origin-center opacity-70`,style:{background:`var(--gradient-gold)`}})
+        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mb-3 sm:mb-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}}),
+        (0,X.jsx)(`h2`,{className:`font-display text-3xl sm:text-5xl md:text-6xl tracking-wider font-semibold text-center drop-shadow-sm`,style:{color:`var(--gold-deep)`,background:`linear-gradient(110deg, #b8860b 0%, #e6ca65 28%, #ffd700 50%, #e6ca65 72%, #b8860b 100%)`,WebkitBackgroundClip:`text`,WebkitTextFillColor:`transparent`},children:_w.scratchCard?.weddingAlert || "The Wedding Alert"}),
+        (0,X.jsx)(`div`,{className:`h-0.5 w-28 sm:w-44 mt-3 sm:mt-4 origin-center opacity-80`,style:{background:`var(--gradient-gold)`}})
       ]}),
       (0,X.jsx)(`div`,{className:`mt-10 sm:mt-12 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
@@ -163,7 +163,14 @@ function Ld(){
         (0,X.jsx)(Id,{value:timeRemaining.minutes,label:`Minutes`}),
         (0,X.jsx)(Id,{value:timeRemaining.seconds,label:`Seconds`})
       ]}),
-      (0,X.jsx)(`p`,{className:`mt-8 text-center font-script text-xl text-primary/80 italic`,children:_w.dateLabel || "Wednesday, 9 December 2026"})
+      (0,X.jsx)($,{delay:0.12,className:`mt-8 sm:mt-10 flex justify-center`,children:(0,X.jsxs)(Z.a,{
+        href:Bd(),
+        download:`wedding.ics`,
+        whileHover:{scale:1.04},
+        whileTap:{scale:0.96},
+        className:`glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-8 py-3.5 font-sans text-[0.68rem] tracking-[0.24em] text-primary uppercase shadow-sm border border-gold/30 hover:shadow-md transition-all`,
+        children:[(0,X.jsx)(md,{size:15,strokeWidth:1.8,className:`text-gold-deep`}),` Add to your calendar`]
+      })})
     ]})
   ]});
 }
