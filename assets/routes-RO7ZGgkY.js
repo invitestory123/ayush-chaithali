@@ -283,25 +283,25 @@ function Hd(){
   return (0,X.jsxs)(`section`,{id:`details`,className:`relative overflow-hidden px-4 sm:px-5 pt-36 pb-36 sm:pt-48 sm:pb-48`,children:[
     (0,X.jsx)(`img`,{src:Ud,alt:``,"aria-hidden":!0,loading:`lazy`,width:1536,height:1024,className:`absolute inset-0 -z-10 h-full w-full object-cover opacity-20`}),
     (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--ivory) 78%, transparent) 30%, color-mix(in oklab, var(--ivory) 78%, transparent) 70%, var(--ivory) 100%)`}}),
-    (0,X.jsxs)(`div`,{className:`mx-auto max-w-2xl`,children:[
+    (0,X.jsxs)(`div`,{className:`mx-auto max-w-lg sm:max-w-xl`,children:[
       (0,X.jsx)(Ad,{eyebrow:`Chapter Two`,title:`List of Functions`,note:`Two days of joy, traditions, and unforgettable memories`}),
-      (0,X.jsxs)(`div`,{ref:e,className:`relative mt-12 pl-10 sm:pl-16`,children:[
-        (0,X.jsxs)(`svg`,{"aria-hidden":!0,className:`absolute top-0 left-2.5 h-full w-8 sm:left-5`,viewBox:`0 0 40 2800`,preserveAspectRatio:`none`,fill:`none`,children:[
-          (0,X.jsx)(Z.path,{d:`M20 0 C34 200, 6 400, 20 600 C34 800, 6 1000, 20 1200 C34 1400, 6 1600, 20 1800 C34 2000, 6 2200, 20 2400 C34 2600, 6 2700, 20 2800`,stroke:`var(--olive)`,strokeWidth:`2`,strokeLinecap:`round`,opacity:`0.65`,style:{pathLength:n}}),
-          [160, 520, 880, 1240, 1600, 1960, 2320, 2680].map((e,t)=>(0,X.jsx)(Z.ellipse,{cx:t%2?30:10,cy:e,rx:`9`,ry:`4.5`,fill:`var(--sage)`,opacity:`0.7`,transform:`rotate(${t%2?24:-24} ${t%2?30:10} ${e})`,style:{scale:n}},e))
+      (0,X.jsxs)(`div`,{ref:e,className:`relative mt-12 sm:mt-16`,children:[
+        (0,X.jsxs)(`svg`,{"aria-hidden":!0,className:`absolute top-0 bottom-0 left-6 sm:left-7 w-6 h-full pointer-events-none z-0`,viewBox:`0 0 24 2800`,preserveAspectRatio:`none`,fill:`none`,children:[
+          (0,X.jsx)(Z.path,{d:`M12 0 L12 2800`,stroke:`var(--olive)`,strokeWidth:`2`,strokeLinecap:`round`,opacity:`0.65`,style:{pathLength:n}}),
+          [160, 520, 880, 1240, 1600, 1960, 2320, 2680].map((e,t)=>(0,X.jsx)(Z.ellipse,{cx:12,cy:e,rx:`6`,ry:`3`,fill:`var(--sage)`,opacity:`0.7`,transform:`rotate(${t%2?24:-24} 12 ${e})`,style:{scale:n}},e))
         ]}),
-        (0,X.jsx)(`ol`,{className:`space-y-12 sm:space-y-16`,children:chaptersList.map((item,idx)=>(
+        (0,X.jsx)(`ol`,{className:`space-y-10 sm:space-y-14 relative z-10`,children:chaptersList.map((item,idx)=>(
           (0,X.jsx)(`li`,{key:item.title || idx,children:(0,X.jsx)($,{delay:idx*.05,children:(0,X.jsxs)(Z.div,{
-            whileHover:{x:4},
+            whileHover:{y:-3},
             transition:{type:`spring`,stiffness:200,damping:20},
-            className:`plate paper-grain relative rounded-[2rem] p-5 sm:p-7 shadow-sm border border-gold/25`,
+            className:`plate paper-grain relative z-10 overflow-hidden rounded-[2rem] p-5 sm:p-6 shadow-sm border border-gold/25`,
             children:[
-              (0,X.jsx)(`span`,{className:`absolute -left-[3.05rem] top-6 flex h-8 w-8 items-center justify-center rounded-full font-display text-xs text-primary-foreground sm:-left-[4.2rem] shadow-md font-semibold`,style:{background:`var(--gradient-gold)`},children:item.no}),
-              item.illustration ? (0,X.jsxs)(`div`,{className:`relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden rounded-[1.4rem] bg-[var(--cream)] mb-4 sm:mb-5 shadow-sm border border-gold/20`,children:[
+              item.illustration ? (0,X.jsxs)(`div`,{className:`relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden rounded-[1.4rem] bg-[var(--cream)] mb-6 sm:mb-8 shadow-sm border border-gold/20`,children:[
                 (0,X.jsx)(`img`,{src:item.illustration,alt:item.title,loading:`lazy`,width:600,height:375,className:`h-full w-full object-cover transition-transform duration-700 hover:scale-105`}),
-                item.venue ? (0,X.jsx)(`span`,{className:`absolute top-3 right-3 rounded-full bg-[color-mix(in_oklab,var(--ivory)_90%,transparent)] px-3 py-1 font-sans text-[0.58rem] tracking-[0.2em] text-primary uppercase backdrop-blur-md border border-gold/20 shadow-xs`,children:item.venue}) : null
+                (0,X.jsx)(`span`,{className:`absolute top-3 left-3 rounded-full bg-[color-mix(in_oklab,var(--ivory)_92%,transparent)] px-3 py-1 font-display text-xs text-primary font-semibold backdrop-blur-md border border-gold/25 shadow-xs`,children:item.no}),
+                item.venue ? (0,X.jsx)(`span`,{className:`absolute top-3 right-3 rounded-full bg-[color-mix(in_oklab,var(--ivory)_92%,transparent)] px-3 py-1 font-sans text-[0.58rem] tracking-[0.2em] text-primary uppercase backdrop-blur-md border border-gold/20 shadow-xs`,children:item.venue}) : null
               ]}) : null,
-              (0,X.jsx)(`p`,{className:`font-sans text-[0.6rem] tracking-[0.32em] text-gold-deep uppercase font-semibold`,children:item.when}),
+              (0,X.jsxs)(`p`,{className:`mt-1 font-sans text-[0.6rem] tracking-[0.32em] text-gold-deep uppercase font-semibold`,children:[item.no,` • `,item.when]}),
               (0,X.jsx)(`h3`,{className:`mt-1.5 text-2xl text-primary sm:text-3xl font-display`,children:item.title}),
               (0,X.jsx)(`p`,{className:`mt-2 text-xs sm:text-sm leading-relaxed text-muted-foreground`,children:item.desc || item.text}),
               item.dressCode ? (0,X.jsxs)(`div`,{className:`mt-3.5 rounded-xl bg-[color-mix(in_oklab,var(--blush)_20%,transparent)] p-3 border border-gold/15`,children:[
