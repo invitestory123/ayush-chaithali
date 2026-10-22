@@ -156,7 +156,7 @@ function Ld(){
           children:`Tap To Reveal Date`
         })
       ]}),
-      (0,X.jsx)(`div`,{className:`mt-16 sm:mt-20 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
+      (0,X.jsx)(`div`,{className:`mt-28 sm:mt-36 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
         (0,X.jsx)(Id,{value:timeRemaining.days,label:`Days`}),
         (0,X.jsx)(Id,{value:timeRemaining.hours,label:`Hours`}),
@@ -168,8 +168,8 @@ function Ld(){
         download:`wedding.ics`,
         whileHover:{scale:1.04},
         whileTap:{scale:0.96},
-        className:`glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-8 py-3.5 font-sans text-[0.68rem] tracking-[0.24em] text-primary uppercase shadow-sm border border-gold/30 hover:shadow-md transition-all`,
-        children:[(0,X.jsx)(md,{size:15,strokeWidth:1.8,className:`text-gold-deep`}),` Add to your calendar`]
+        className:`glass-plate inline-flex items-center justify-center gap-3 rounded-full px-9 py-4 sm:px-11 sm:py-4.5 font-sans text-[0.75rem] sm:text-[0.82rem] tracking-[0.26em] font-semibold text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all`,
+        children:[(0,X.jsx)(md,{size:18,strokeWidth:2,className:`text-gold-deep`}),` Add to your calendar`]
       })})
     ]})
   ]});
