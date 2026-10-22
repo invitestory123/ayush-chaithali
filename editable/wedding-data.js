@@ -40,8 +40,8 @@ window.WEDDING_DATA = {
     groom: {
       name: "Ayush Rai",
       role: "The Groom",
-      parents: "S/O Shri. Vishnudeo Rai & Shrimati. Neelam Rai",
-      text: "Son of Shri. Vishnudeo Rai & Shrimati. Neelam Rai. Ready to embark on life's sweetest journey hand in hand, with boundless love and devotion.",
+      parents: "S/O Shri. Vishnu Deo Rai & Shrimati. Neelam Rai",
+      text: "Son of Shri. Vishnu Deo Rai & Shrimati. Neelam Rai. Ready to embark on life's sweetest journey hand in hand, with boundless love and devotion.",
     },
   },
   scratchCard: {
