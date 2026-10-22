@@ -31,3 +31,30 @@ footer {
     margin-bottom: 1.6rem !important;
   }
 }
+
+.btn-calendar {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 10px !important;
+  padding: 14px 44px !important;
+  min-width: 290px !important;
+  border-radius: 9999px !important;
+  font-family: inherit !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.16em !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 640px) {
+  .btn-calendar {
+    gap: 12px !important;
+    padding: 16px 52px !important;
+    min-width: 330px !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.18em !important;
+  }
+}

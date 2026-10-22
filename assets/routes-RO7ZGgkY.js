@@ -176,8 +176,25 @@ function Ld(){
         download:`wedding.ics`,
         whileHover:{scale:1.04},
         whileTap:{scale:0.96},
-        className:`glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-12 py-4 sm:px-16 sm:py-4.5 min-w-[300px] sm:min-w-[340px] font-sans text-[0.72rem] sm:text-[0.78rem] tracking-[0.18em] font-semibold text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all whitespace-nowrap`,
-        children:[(0,X.jsx)(md,{size:18,strokeWidth:2,className:`text-gold-deep`}),` Add to your calendar`]
+        className:`btn-calendar glass-plate text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all`,
+        style:{
+          display:'inline-flex',
+          alignItems:'center',
+          justifyContent:'center',
+          gap:'12px',
+          padding:'15px 46px',
+          minWidth:'300px',
+          borderRadius:'9999px',
+          letterSpacing:'0.16em',
+          fontSize:'0.72rem',
+          fontWeight:600,
+          whiteSpace:'nowrap',
+          boxSizing:'border-box'
+        },
+        children:[
+          (0,X.jsx)(md,{size:17,strokeWidth:2,className:`text-gold-deep shrink-0`}),
+          (0,X.jsx)(`span`,{style:{letterSpacing:'0.16em',fontWeight:600},children:`Add to your calendar`})
+        ]
       })})
     ]})
   ]});
