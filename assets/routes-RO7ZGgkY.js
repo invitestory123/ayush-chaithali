@@ -147,22 +147,7 @@ function Ld(){
             style:{touchAction:'none'}
           })
         ]}),
-        (0,X.jsx)(Z.button,{
-          type:`button`,
-          onClick:handleInstantReveal,
-          whileHover:revealed?{}:{scale:1.04},
-          whileTap:revealed?{}:{scale:0.96},
-          className:`glass-plate mt-5 rounded-full px-5 py-2 font-sans text-[0.6rem] tracking-[0.28em] text-primary uppercase shadow-sm transition-opacity duration-500`,
-          style:{
-            visibility: revealed ? `hidden` : `visible`,
-            opacity: revealed ? 0 : 1,
-            pointerEvents: revealed ? `none` : `auto`,
-            userSelect: `none`
-          },
-          tabIndex: revealed ? -1 : 0,
-          "aria-hidden": revealed,
-          children:`Tap To Reveal Date`
-        })
+
       ]}),
       (0,X.jsx)(`div`,{className:`mt-28 sm:mt-36 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
