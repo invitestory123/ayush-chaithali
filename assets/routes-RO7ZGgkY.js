@@ -149,7 +149,7 @@ function Ld(){
         ]}),
 
       ]}),
-      (0,X.jsx)(`div`,{className:`mt-28 sm:mt-36 text-center`,children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
+      (0,X.jsx)(`div`,{className:`mt-12 text-center`,style:{marginTop:'3rem'},children:(0,X.jsx)(Ad,{eyebrow:`The Waiting`,title:`Until the gates open`,note:`Counting every moment until we say forever`})}),
       (0,X.jsxs)(`div`,{className:`mt-8 flex flex-wrap justify-center gap-3 sm:gap-4`,children:[
         (0,X.jsx)(Id,{value:timeRemaining.days,label:`Days`}),
         (0,X.jsx)(Id,{value:timeRemaining.hours,label:`Hours`}),
