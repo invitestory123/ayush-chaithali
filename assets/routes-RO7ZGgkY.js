@@ -157,11 +157,12 @@ function Ld(){
         (0,X.jsx)(Id,{value:timeRemaining.seconds,label:`Seconds`})
       ]}),
       (0,X.jsx)($,{delay:0.12,className:`mt-8 sm:mt-10 flex justify-center`,children:(0,X.jsxs)(Z.a,{
-        href:Bd(),
-        download:`wedding.ics`,
+        href:`#calendar`,
+        onClick:e=>{ if(typeof window!=='undefined'&&window.openCalendarModal) window.openCalendarModal(e); },
+        role:`button`,
         whileHover:{scale:1.04},
         whileTap:{scale:0.96},
-        className:`btn-calendar glass-plate text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all`,
+        className:`btn-calendar glass-plate text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all cursor-pointer`,
         style:{
           display:'inline-flex',
           alignItems:'center',
@@ -275,11 +276,12 @@ function Wd(){
               children:[(0,X.jsx)(vd,{size:15,strokeWidth:1.8}),` Open In Google Maps`]
             }),
             (0,X.jsxs)(Z.a,{
-              href:Bd(),
-              download:`wedding.ics`,
+              href:`#calendar`,
+              onClick:e=>{ if(typeof window!=='undefined'&&window.openCalendarModal) window.openCalendarModal(e); },
+              role:`button`,
               whileHover:{scale:1.04},
               whileTap:{scale:0.96},
-              className:`w-full sm:w-auto glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-8 py-4 font-sans text-[0.68rem] tracking-[0.24em] text-primary uppercase shadow-sm border border-gold/30 hover:shadow-md transition-all`,
+              className:`w-full sm:w-auto glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-8 py-4 font-sans text-[0.68rem] tracking-[0.24em] text-primary uppercase shadow-sm border border-gold/30 hover:shadow-md transition-all cursor-pointer`,
               children:[(0,X.jsx)(md,{size:15,strokeWidth:1.8}),` Add To Calendar`]
             })
           ]})

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//InviteStory//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:chaitali-ayush-wedding-20261209@invitestory.in
+DTSTAMP:20261023T000000Z
+DTSTART:20261209T103000Z
+DTEND:20261209T173000Z
+SUMMARY:Chaitali & Ayush — Wedding & Reception
+LOCATION:Hotel Sea N Rock, Thane Ghodbunder Road, Western Express Highway, Mira Road East, Mumbai, Maharashtra 401107
+DESCRIPTION:Join us to celebrate the wedding & reception of Chaitali Poojari and Ayush Rai at Hotel Sea N Rock, Mumbai.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
