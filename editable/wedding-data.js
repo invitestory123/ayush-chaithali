@@ -31,6 +31,8 @@ window.WEDDING_DATA = {
   story: {
     title: "The Bride & The Groom",
     subtitle: "With the divine blessings of our families",
+    shloka: "॥ श्री गणेशाय नमः ॥",
+    ganpatiImage: "./editable/assets/ganpati.png",
     bride: {
       name: "Chaitali Poojari",
       role: "The Bride",
@@ -43,6 +45,7 @@ window.WEDDING_DATA = {
       parents: "S/O Shri. Vishnu Deo Rai & Shrimati. Neelam Rai",
       text: "Son of Shri. Vishnu Deo Rai & Shrimati. Neelam Rai. Ready to embark on life's sweetest journey hand in hand, with boundless love and devotion.",
     },
+    footnote: "Two souls embarking on life's sweetest sacred journey, blessed by our loved ones.",
   },
   scratchCard: {
     title: "Scratch to Reveal Our Date",
@@ -181,6 +184,7 @@ window.WEDDING_DATA = {
     heroPalace: "./editable/assets/hero-palace.jpg",
     bougainvillea: "./editable/assets/bougainvillea.png",
     goldFlourish: "./editable/assets/gold-flourish.png",
+    ganpati: "./editable/assets/ganpati.png",
     portraitBride: "./editable/assets/portrait-bride.jpg",
     portraitGroom: "./editable/assets/portrait-groom.jpg",
     hotelPhoto: "./editable/assets/hotel-sea-n-rock.jpg",
