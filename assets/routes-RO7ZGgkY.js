@@ -20,7 +20,7 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
   let footnote = (e && e.footnote) || "Two souls embarking on life's sweetest sacred journey, blessed by our loved ones.";
 
   return (0,X.jsxs)("section", {
-    className: "relative overflow-hidden px-5 py-24 sm:py-28",
+    className: "wedding-card-section relative overflow-hidden px-5 py-24 sm:py-28",
     children: [
       (0,X.jsx)("div", {
         "aria-hidden": !0,
@@ -36,11 +36,16 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
           (0,X.jsx)(kd, { className: "mt-8" }),
           (0,X.jsx)($, {
             delay: 0.1,
-            className: "mt-10 sm:mt-12 flex justify-center",
+            className: "wedding-card-wrapper mt-10 sm:mt-12 flex justify-center",
+            style: { marginBottom: "28px" },
             children: (0,X.jsxs)(Z.article, {
               whileHover: { y: -4 },
               transition: { type: "spring", stiffness: 180, damping: 20 },
-              className: "plate paper-grain relative w-full max-w-2xl overflow-hidden rounded-[2.2rem] border border-gold/30 p-7 sm:p-11 shadow-xl text-center",
+              className: "wedding-card plate paper-grain relative w-full max-w-2xl overflow-hidden rounded-[2.2rem] border border-gold/30 shadow-xl text-center",
+              style: {
+                padding: "28px 22px 22px 22px",
+                boxSizing: "border-box"
+              },
               children: [
                 (0,X.jsx)("div", {
                   "aria-hidden": !0,
@@ -53,7 +58,8 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                   className: "relative z-10 flex flex-col items-center",
                   children: [
                     (0,X.jsxs)("div", {
-                      className: "relative mb-2 flex items-center justify-center",
+                      className: "wedding-card-ganesha relative mb-2 flex items-center justify-center",
+                      style: { marginBottom: "18px" },
                       children: [
                         (0,X.jsx)("div", {
                           className: "absolute -inset-4 rounded-full blur-xl opacity-60",
@@ -76,11 +82,13 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                       ]
                     }),
                     (0,X.jsx)("p", {
-                      className: "font-display text-sm sm:text-base tracking-[0.28em] text-gold-deep font-semibold uppercase",
+                      className: "wedding-card-mantra font-display text-sm sm:text-base tracking-[0.28em] text-gold-deep font-semibold uppercase",
+                      style: { marginBottom: "0px", lineHeight: 1.3 },
                       children: shloka
                     }),
                     (0,X.jsx)("div", {
-                      className: "my-5 flex justify-center",
+                      className: "wedding-card-divider my-5 flex justify-center",
+                      style: { marginTop: "14px", marginBottom: "14px" },
                       children: (0,X.jsx)("img", {
                         src: "editable/assets/gold-flourish.png",
                         alt: "",
@@ -92,27 +100,34 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                       })
                     }),
                     (0,X.jsxs)("div", {
-                      className: "w-full flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8",
+                      className: "wedding-card-couple-flow w-full flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8",
+                      style: { gap: "18px" },
                       children: [
                         (0,X.jsxs)("div", {
                           className: "flex-1 text-center",
                           children: [
                             (0,X.jsx)("span", {
-                              className: "inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              className: "wedding-card-badge inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              style: { lineHeight: 1 },
                               children: "The Bride"
                             }),
                             (0,X.jsx)("h3", {
-                              className: "mt-2.5 text-2xl sm:text-3xl font-display text-primary font-medium tracking-wide",
+                              className: "wedding-card-name mt-2.5 text-2xl sm:text-3xl font-display text-primary font-medium tracking-wide",
+                              style: { marginTop: "7px", lineHeight: 1.2 },
                               children: bName
                             }),
-                            (0,X.jsx)("p", {
-                              className: "mt-2 text-sm sm:text-base font-display text-primary/85 font-medium leading-relaxed",
+                            (0,X.jsx)("div", {
+                              className: "wedding-card-parents mt-2 text-sm sm:text-base font-display text-primary/85 font-medium leading-relaxed",
+                              style: { marginTop: "14px" },
                               children: bParents.includes(" & ")
                                 ? (0,X.jsxs)(X.Fragment, {
                                     children: [
-                                      bParents.split(" & ")[0],
-                                      (0,X.jsx)("br", {}),
-                                      "& " + bParents.split(" & ")[1]
+                                      (0,X.jsx)("span", { className: "block", children: bParents.split(" & ")[0] }),
+                                      (0,X.jsx)("span", {
+                                        className: "wedding-card-parents-line2 block",
+                                        style: { marginTop: "7px" },
+                                        children: "& " + bParents.split(" & ")[1]
+                                      })
                                     ]
                                   })
                                 : bParents
@@ -122,7 +137,8 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                         (0,X.jsx)("div", {
                           className: "flex items-center justify-center shrink-0",
                           children: (0,X.jsx)("span", {
-                            className: "font-script text-3xl sm:text-4xl italic text-gold-deep",
+                            className: "wedding-card-ampersand font-script text-3xl sm:text-4xl italic text-gold-deep leading-none",
+                            style: { lineHeight: 1, display: "inline-block" },
                             children: "&"
                           })
                         }),
@@ -130,21 +146,27 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                           className: "flex-1 text-center",
                           children: [
                             (0,X.jsx)("span", {
-                              className: "inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              className: "wedding-card-badge inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              style: { lineHeight: 1 },
                               children: "The Groom"
                             }),
                             (0,X.jsx)("h3", {
-                              className: "mt-2.5 text-2xl sm:text-3xl font-display text-primary font-medium tracking-wide",
+                              className: "wedding-card-name mt-2.5 text-2xl sm:text-3xl font-display text-primary font-medium tracking-wide",
+                              style: { marginTop: "7px", lineHeight: 1.2 },
                               children: gName
                             }),
-                            (0,X.jsx)("p", {
-                              className: "mt-2 text-sm sm:text-base font-display text-primary/85 font-medium leading-relaxed",
+                            (0,X.jsx)("div", {
+                              className: "wedding-card-parents mt-2 text-sm sm:text-base font-display text-primary/85 font-medium leading-relaxed",
+                              style: { marginTop: "14px" },
                               children: gParents.includes(" & ")
                                 ? (0,X.jsxs)(X.Fragment, {
                                     children: [
-                                      gParents.split(" & ")[0],
-                                      (0,X.jsx)("br", {}),
-                                      "& " + gParents.split(" & ")[1]
+                                      (0,X.jsx)("span", { className: "block", children: gParents.split(" & ")[0] }),
+                                      (0,X.jsx)("span", {
+                                        className: "wedding-card-parents-line2 block",
+                                        style: { marginTop: "7px" },
+                                        children: "& " + gParents.split(" & ")[1]
+                                      })
                                     ]
                                   })
                                 : gParents
@@ -155,7 +177,8 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                     }),
                     footnote
                       ? (0,X.jsx)("p", {
-                          className: "mt-8 font-script text-base sm:text-lg text-primary/75 italic",
+                          className: "wedding-card-quote mt-8 font-script text-base sm:text-lg text-primary/75 italic",
+                          style: { marginTop: "26px", lineHeight: 1.4 },
                           children: footnote
                         })
                       : null
@@ -279,7 +302,7 @@ function Ld(){
     }
   };
 
-  return (0,X.jsxs)(`section`,{className:`relative overflow-hidden px-5 py-24 sm:py-28`,children:[
+  return (0,X.jsxs)(`section`,{className:`countdown-section relative overflow-hidden px-5 py-24 sm:py-28`,children:[
     (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 -z-10`,style:{background:`linear-gradient(180deg, var(--ivory) 0%, color-mix(in oklab, var(--lavender) 30%, var(--ivory)) 55%, color-mix(in oklab, var(--peach) 26%, var(--ivory)) 100%)`}}),
     (0,X.jsx)(Cd,{count:6,className:`opacity-70`,travel:1.1}),
     (0,X.jsxs)(`div`,{className:`relative mx-auto max-w-3xl`,children:[
