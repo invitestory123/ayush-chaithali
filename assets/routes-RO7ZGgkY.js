@@ -41,10 +41,11 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
             children: (0,X.jsxs)(Z.article, {
               whileHover: { y: -4 },
               transition: { type: "spring", stiffness: 180, damping: 20 },
-              className: "wedding-card plate paper-grain relative w-full max-w-2xl overflow-hidden rounded-[2.2rem] border border-gold/30 shadow-xl text-center",
+              className: "wedding-card plate paper-grain relative w-full max-w-2xl overflow-hidden rounded-[2rem] sm:rounded-[2.2rem] border border-gold/30 shadow-xl text-center",
               style: {
                 padding: "28px 22px 22px 22px",
-                boxSizing: "border-box"
+                boxSizing: "border-box",
+                borderRadius: "2rem"
               },
               children: [
                 (0,X.jsx)("div", {
@@ -107,8 +108,8 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                           className: "flex-1 text-center",
                           children: [
                             (0,X.jsx)("span", {
-                              className: "wedding-card-badge inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
-                              style: { lineHeight: 1 },
+                              className: "wedding-card-badge inline-flex items-center justify-center rounded-full bg-gold/15 px-4 py-1.5 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              style: { lineHeight: 1.2 },
                               children: "The Bride"
                             }),
                             (0,X.jsx)("h3", {
@@ -146,8 +147,8 @@ var _w=(typeof window!=="undefined"&&window.WEDDING_DATA)?window.WEDDING_DATA:o;
                           className: "flex-1 text-center",
                           children: [
                             (0,X.jsx)("span", {
-                              className: "wedding-card-badge inline-block rounded-full bg-gold/15 px-3.5 py-1 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
-                              style: { lineHeight: 1 },
+                              className: "wedding-card-badge inline-flex items-center justify-center rounded-full bg-gold/15 px-4 py-1.5 font-sans text-[0.58rem] tracking-[0.3em] text-gold-deep uppercase font-semibold border border-gold/25",
+                              style: { lineHeight: 1.2 },
                               children: "The Groom"
                             }),
                             (0,X.jsx)("h3", {
@@ -434,7 +435,7 @@ function Wd(){
     (0,X.jsxs)(`div`,{className:`mx-auto max-w-4xl`,children:[
       (0,X.jsx)(Ad,{eyebrow:`Chapter Three`,title:`The Venue & Location`,note:`Hotel Sea N Rock · Mumbai`}),
       (0,X.jsx)(kd,{className:`mt-8`}),
-      (0,X.jsx)($,{delay:0.08,className:`mt-8 sm:mt-10`,children:(0,X.jsxs)(`div`,{className:`plate paper-grain overflow-hidden rounded-[2.2rem] border border-gold/25 shadow-xl`,children:[
+      (0,X.jsx)($,{delay:0.08,className:`mt-8 sm:mt-10`,children:(0,X.jsxs)(`div`,{className:`plate paper-grain overflow-hidden rounded-[2rem] sm:rounded-[2.2rem] border border-gold/25 shadow-xl`,children:[
         (0,X.jsxs)(`div`,{className:`relative h-72 sm:h-96 w-full overflow-hidden`,children:[
           (0,X.jsx)(`img`,{src:hotelPhoto,alt:`Hotel Sea N Rock`,loading:`lazy`,width:1200,height:800,className:`h-full w-full object-cover transition-transform duration-1000 hover:scale-105`}),
           (0,X.jsx)(`div`,{"aria-hidden":!0,className:`absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent`}),
