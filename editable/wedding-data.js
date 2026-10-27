@@ -158,7 +158,7 @@ window.WEDDING_DATA = {
     },
     {
         "no": "VI",
-        "when": "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)",
+        "when": "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM",
         "title": "Wedding Muhurat",
         "illustration": "./editable/assets/illustration-wedding.jpg"
     },
