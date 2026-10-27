@@ -107,8 +107,8 @@ window.WEDDING_DATA = {
           desc: "A grand royal baarat procession with dhol, dance, and celebration to welcome the groom.",
         },
         {
-          name: "Wedding Muhurat (Vidhi & Fera)",
-          time: "4:00 PM – 7:00 PM (Vidhi & Fera 4:30 PM onwards)",
+          name: "Wedding Muhurat",
+          time: "4:00 PM – 7:00 PM (4:30 PM onwards)",
           venue: "Open Air",
           dressCode: "Traditional attire — Light and Dark colors 🌸🔥",
           illustration: "./editable/assets/illustration-wedding.jpg",
@@ -159,7 +159,7 @@ window.WEDDING_DATA = {
     {
         "no": "VI",
         "when": "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)",
-        "title": "Wedding Muhurat (Vidhi & Fera)",
+        "title": "Wedding Muhurat",
         "illustration": "./editable/assets/illustration-wedding.jpg"
     },
     {

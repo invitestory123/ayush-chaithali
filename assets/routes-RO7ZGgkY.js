@@ -395,7 +395,7 @@ function Bd(){
 
 function Hd(){
   let e=(0,s.useRef)(null),{scrollYProgress:t}=Yu({target:e,offset:[`start 80%`,`end 45%`]}),n=$u(t,[0,1],[0,1]);
-  let chaptersList = (_w.chapters && _w.chapters.length > 0) ? _w.chapters : [{'no': 'I', 'when': '8TH DECEMBER 2026 • 10:00 AM – 2:00 PM', 'title': 'Mehendi Ceremony', 'illustration': './editable/assets/illustration-mehendi.jpg'}, {'no': 'II', 'when': '8TH DECEMBER 2026 • 3:00 PM ONWARDS', 'title': 'Tilak Ceremony', 'illustration': './editable/assets/illustration-tilak.jpg'}, {'no': 'III', 'when': '8TH DECEMBER 2026 • 7:30 PM – 11:00 PM', 'title': 'Engagement & Sangeet', 'illustration': './editable/assets/illustration-sangeet.jpg'}, {'no': 'IV', 'when': '9TH DECEMBER 2026 • 10:00 AM – 1:00 PM', 'title': 'Haldi Ceremony', 'illustration': './editable/assets/illustration-haldi.jpg'}, {'no': 'V', 'when': '9TH DECEMBER 2026 • 3:30 PM', 'title': 'Baarat Procession', 'illustration': './editable/assets/illustration-baarat.jpg'}, {'no': 'VI', 'when': '9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)', 'title': 'Wedding Muhurat (Vidhi & Fera)', 'illustration': './editable/assets/illustration-wedding.jpg'}, {'no': 'VII', 'when': '9TH DECEMBER 2026 • 8:30 PM ONWARDS', 'title': 'Grand Reception', 'illustration': './editable/assets/illustration-reception.jpg'}];
+  let chaptersList = (_w.chapters && _w.chapters.length > 0) ? _w.chapters : [{'no': 'I', 'when': '8TH DECEMBER 2026 • 10:00 AM – 2:00 PM', 'title': 'Mehendi Ceremony', 'illustration': './editable/assets/illustration-mehendi.jpg'}, {'no': 'II', 'when': '8TH DECEMBER 2026 • 3:00 PM ONWARDS', 'title': 'Tilak Ceremony', 'illustration': './editable/assets/illustration-tilak.jpg'}, {'no': 'III', 'when': '8TH DECEMBER 2026 • 7:30 PM – 11:00 PM', 'title': 'Engagement & Sangeet', 'illustration': './editable/assets/illustration-sangeet.jpg'}, {'no': 'IV', 'when': '9TH DECEMBER 2026 • 10:00 AM – 1:00 PM', 'title': 'Haldi Ceremony', 'illustration': './editable/assets/illustration-haldi.jpg'}, {'no': 'V', 'when': '9TH DECEMBER 2026 • 3:30 PM', 'title': 'Baarat Procession', 'illustration': './editable/assets/illustration-baarat.jpg'}, {'no': 'VI', 'when': '9TH DECEMBER 2026 • 4:00 PM – 7:00 PM (FERA 4:30 PM)', 'title': 'Wedding Muhurat', 'illustration': './editable/assets/illustration-wedding.jpg'}, {'no': 'VII', 'when': '9TH DECEMBER 2026 • 8:30 PM ONWARDS', 'title': 'Grand Reception', 'illustration': './editable/assets/illustration-reception.jpg'}];
 
   return (0,X.jsxs)(`section`,{id:`details`,className:`relative overflow-hidden px-4 sm:px-5 py-24`,children:[
     (0,X.jsx)(`img`,{src:Ud,alt:``,"aria-hidden":!0,loading:`lazy`,width:1536,height:1024,className:`absolute inset-0 -z-10 h-full w-full object-cover opacity-20`}),
@@ -450,15 +450,32 @@ function Wd(){
             `Address & Destination`
           ]}),
           (0,X.jsx)(`p`,{className:`mt-3 font-display text-lg sm:text-xl text-primary max-w-2xl mx-auto leading-relaxed`,children:_w.venue?.address || "Thane Ghodbunder Road, Western Express Highway, Mira Road East, Mumbai, Maharashtra 401107"}),
-          (0,X.jsxs)(`div`,{className:`mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center max-w-md mx-auto w-full`,style:{gap:'18px'},children:[
+          (0,X.jsxs)(`div`,{className:`mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center max-w-3xl mx-auto w-full`,style:{gap:'16px'},children:[
             (0,X.jsxs)(Z.a,{
               href:mapsUrl,
               target:`_blank`,
               rel:`noreferrer`,
               whileHover:{scale:1.04},
               whileTap:{scale:0.96},
-              className:`w-full sm:w-auto inline-flex items-center justify-center gap-2.5 rounded-full bg-primary px-8 py-4 font-sans text-[0.68rem] tracking-[0.24em] text-primary-foreground uppercase shadow-md hover:shadow-lg transition-all`,
-              children:[(0,X.jsx)(vd,{size:15,strokeWidth:1.8}),` Open In Google Maps`]
+              className:`btn-calendar btn-venue-btn glass-plate text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all cursor-pointer`,
+              style:{
+                display:'inline-flex',
+                alignItems:'center',
+                justifyContent:'center',
+                gap:'12px',
+                padding:'15px 46px',
+                minWidth:'300px',
+                borderRadius:'9999px',
+                letterSpacing:'0.16em',
+                fontSize:'0.72rem',
+                fontWeight:600,
+                whiteSpace:'nowrap',
+                boxSizing:'border-box'
+              },
+              children:[
+                (0,X.jsx)(vd,{size:17,strokeWidth:2,className:`text-gold-deep shrink-0`}),
+                (0,X.jsx)(`span`,{style:{letterSpacing:'0.16em',fontWeight:600},children:`Open In Google Maps`})
+              ]
             }),
             (0,X.jsxs)(Z.a,{
               href:`#calendar`,
@@ -466,8 +483,25 @@ function Wd(){
               role:`button`,
               whileHover:{scale:1.04},
               whileTap:{scale:0.96},
-              className:`w-full sm:w-auto glass-plate inline-flex items-center justify-center gap-2.5 rounded-full px-8 py-4 font-sans text-[0.68rem] tracking-[0.24em] text-primary uppercase shadow-sm border border-gold/30 hover:shadow-md transition-all cursor-pointer`,
-              children:[(0,X.jsx)(md,{size:15,strokeWidth:1.8}),` Add To Calendar`]
+              className:`btn-calendar btn-venue-btn glass-plate text-primary uppercase shadow-md border border-gold/40 hover:shadow-lg transition-all cursor-pointer`,
+              style:{
+                display:'inline-flex',
+                alignItems:'center',
+                justifyContent:'center',
+                gap:'12px',
+                padding:'15px 46px',
+                minWidth:'300px',
+                borderRadius:'9999px',
+                letterSpacing:'0.16em',
+                fontSize:'0.72rem',
+                fontWeight:600,
+                whiteSpace:'nowrap',
+                boxSizing:'border-box'
+              },
+              children:[
+                (0,X.jsx)(md,{size:17,strokeWidth:2,className:`text-gold-deep shrink-0`}),
+                (0,X.jsx)(`span`,{style:{letterSpacing:'0.16em',fontWeight:600},children:`Add To Calendar`})
+              ]
             })
           ]})
         ]})

@@ -32,7 +32,8 @@ footer {
   }
 }
 
-.btn-calendar {
+.btn-calendar,
+.btn-venue-btn {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -50,7 +51,8 @@ footer {
 }
 
 @media (min-width: 640px) {
-  .btn-calendar {
+  .btn-calendar,
+  .btn-venue-btn {
     gap: 12px !important;
     padding: 16px 52px !important;
     min-width: 330px !important;
