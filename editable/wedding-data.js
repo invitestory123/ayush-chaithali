@@ -108,11 +108,11 @@ window.WEDDING_DATA = {
         },
         {
           name: "Wedding Muhurat",
-          time: "4:00 PM – 7:00 PM (4:30 PM onwards)",
+          time: "4:00 PM – 7:00 PM",
           venue: "Open Air",
           dressCode: "Traditional attire — Light and Dark colors 🌸🔥",
           illustration: "./editable/assets/illustration-wedding.jpg",
-          desc: "Sacred wedding vows, exchange of varmala, and holy pheras around the agni under open skies.",
+          desc: "Sacred wedding vows, exchange of varmala, and sacred rituals around the agni under open skies.",
         },
         {
           name: "Reception",

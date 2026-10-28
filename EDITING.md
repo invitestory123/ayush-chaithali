@@ -30,7 +30,7 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
    - Dress Code: Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)
 2. **Baarat Procession**: 3:30 PM (Hotel Sea N Rock)
    - Dress Code: Royal Festive Indian 🎺🥁
-3. **Wedding Muhurat (Vidhi & Fera)**: 4:00 PM – 7:00 PM (Vidhi & Fera 4:30 PM onwards, Open Air)
+3. **Wedding Muhurat**: 4:00 PM – 7:00 PM (Open Air)
    - Dress Code: Traditional attire — Light & Dark colors 🌸🔥
 4. **Reception**: 8:30 PM onwards (Open Air)
    - Dress Code: Traditional attire — Light & Dark colors 🌷🥂
