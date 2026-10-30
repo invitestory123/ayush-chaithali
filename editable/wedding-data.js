@@ -193,6 +193,7 @@ window.WEDDING_DATA = {
     gardenCourtyard: "./editable/assets/garden-courtyard.jpg",
     coupleLanterns: "./editable/assets/couple-lanterns.png",
     sunsetSky: "./editable/assets/sunset-sky.jpg",
+    ogImage: "./editable/assets/og-image.jpg",
   },
   music: {
     src: "./editable/assets/bgm.mp3",
