@@ -194,6 +194,14 @@ window.WEDDING_DATA = {
     coupleLanterns: "./editable/assets/couple-lanterns.png",
     sunsetSky: "./editable/assets/sunset-sky.jpg",
   },
+  music: {
+    src: "./editable/assets/bgm.mp3",
+    title: "Guzarish",
+    autoplay: true,
+    loop: true,
+    start: "0:10",
+    end: "0:32",
+  },
 };
 
 window.openCalendarModal = function(e) {
