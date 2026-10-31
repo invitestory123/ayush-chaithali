@@ -53,5 +53,5 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
   - `illustration-wedding.jpg`: Wedding Muhurat illustration
   - `illustration-reception.jpg`: Reception celebration illustration
   - `hotel-sea-n-rock.jpg`: Hotel Sea N Rock Mumbai venue photo
-  - `bgm.mp3`: Background music ("Guzarish", trimmed 0:10 to 0:32, volume reduced by 25%)
+  - `bgm.mp3`: Background music ("Guzarish", trimmed 0:10 to 0:32, volume reduced by an additional 25%)
 

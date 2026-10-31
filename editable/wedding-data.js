@@ -202,7 +202,7 @@ window.WEDDING_DATA = {
     loop: true,
     start: "0:10",
     end: "0:32",
-    volume: 0.75,
+    volume: 0.5,
   },
 };
 
