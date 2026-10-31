@@ -200,7 +200,7 @@ window.WEDDING_DATA = {
     title: "Guzarish",
     autoplay: true,
     loop: true,
-    start: "0:10",
+    start: "0:01",
     end: "0:32",
     volume: 0.3,
   },
