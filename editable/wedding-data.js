@@ -64,7 +64,8 @@ window.WEDDING_DATA = {
           name: "Mehendi",
           time: "10:00 AM – 2:00 PM",
           venue: "Banquet Hall",
-          dressCode: "Light green / Peach hue 🦚🌿",
+          dressCode: "Light Green / Peach",
+          colorHue: "Light Green / Peach",
           illustration: "./editable/assets/illustration-mehendi.jpg",
           desc: "Intricate henna designs, vibrant songs, and sweet beginnings as the celebrations unfold.",
         },
@@ -80,7 +81,8 @@ window.WEDDING_DATA = {
           name: "Engagement & Sangeet",
           time: "7:30 PM onwards (7:30 PM – 11:00 PM)",
           venue: "Banquet Hall",
-          dressCode: "Shimmer darks 💍✨",
+          dressCode: "Dark shades and Sparkles",
+          colorHue: "Dark shades and Sparkles",
           illustration: "./editable/assets/illustration-sangeet.jpg",
           desc: "Exchange of rings followed by a sparkling musical sangeet celebration of dance and joy.",
         },
@@ -92,15 +94,16 @@ window.WEDDING_DATA = {
       events: [
         {
           name: "Haldi Ceremony",
-          time: "10:00 AM – 1:00 PM",
+          time: "9:00 AM – 11:00 AM",
           venue: "Banquet Hall",
-          dressCode: "Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)",
+          dressCode: "Sky blue / Pink",
+          colorHue: "Sky blue / Pink",
           illustration: "./editable/assets/illustration-haldi.jpg",
           desc: "Bathed in auspicious golden turmeric, surrounded by sunflowers, marigolds, and laughter.",
         },
         {
           name: "Baarat Procession",
-          time: "3:30 PM",
+          time: "2:00 PM onwards",
           venue: "Hotel Sea N Rock",
           dressCode: "Royal Festive Indian 🎺🥁",
           illustration: "./editable/assets/illustration-baarat.jpg",
@@ -110,7 +113,8 @@ window.WEDDING_DATA = {
           name: "Wedding Muhurat",
           time: "4:00 PM – 7:00 PM",
           venue: "Open Air",
-          dressCode: "Traditional attire — Light and Dark colors 🌸🔥",
+          dressCode: "Traditional Indian Festive wear",
+          colorHue: "Traditional Indian Festive wear",
           illustration: "./editable/assets/illustration-wedding.jpg",
           desc: "Sacred wedding vows, exchange of varmala, and sacred rituals around the agni under open skies.",
         },
@@ -118,7 +122,8 @@ window.WEDDING_DATA = {
           name: "Reception",
           time: "8:30 PM onwards",
           venue: "Open Air",
-          dressCode: "Traditional attire — Light and Dark colors (Shadi clothes continue) 🌷🥂",
+          dressCode: "Traditional Indian Festive wear",
+          colorHue: "Traditional Indian Festive wear",
           illustration: "./editable/assets/illustration-reception.jpg",
           desc: "An enchanting evening reception with dinner, blessings, and toasts. (Note: Shadi will be followed by reception from 8 PM onwards, so attire remains the same).",
         },
@@ -130,6 +135,7 @@ window.WEDDING_DATA = {
         "no": "I",
         "when": "8TH DECEMBER 2026 • 10:00 AM – 2:00 PM",
         "title": "Mehendi Ceremony",
+        "colorHue": "Light Green / Peach",
         "illustration": "./editable/assets/illustration-mehendi.jpg"
     },
     {
@@ -142,17 +148,19 @@ window.WEDDING_DATA = {
         "no": "III",
         "when": "8TH DECEMBER 2026 • 7:30 PM – 11:00 PM",
         "title": "Engagement & Sangeet",
+        "colorHue": "Dark shades and Sparkles",
         "illustration": "./editable/assets/illustration-sangeet.jpg"
     },
     {
         "no": "IV",
-        "when": "9TH DECEMBER 2026 • 10:00 AM – 1:00 PM",
+        "when": "9TH DECEMBER 2026 • 9:00 AM – 11:00 AM",
         "title": "Haldi Ceremony",
+        "colorHue": "Sky blue / Pink",
         "illustration": "./editable/assets/illustration-haldi.jpg"
     },
     {
         "no": "V",
-        "when": "9TH DECEMBER 2026 • 3:30 PM",
+        "when": "9TH DECEMBER 2026 • 2:00 PM ONWARDS",
         "title": "Baarat Procession",
         "illustration": "./editable/assets/illustration-baarat.jpg"
     },
@@ -160,12 +168,14 @@ window.WEDDING_DATA = {
         "no": "VI",
         "when": "9TH DECEMBER 2026 • 4:00 PM – 7:00 PM",
         "title": "Wedding Muhurat",
+        "colorHue": "Traditional Indian Festive wear",
         "illustration": "./editable/assets/illustration-wedding.jpg"
     },
     {
         "no": "VII",
         "when": "9TH DECEMBER 2026 • 8:30 PM ONWARDS",
         "title": "Grand Reception",
+        "colorHue": "Traditional Indian Festive wear",
         "illustration": "./editable/assets/illustration-reception.jpg"
     }
 ],

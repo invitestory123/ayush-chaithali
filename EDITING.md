@@ -19,21 +19,21 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
 
 ### 8th December 2026 (Prior Functions)
 1. **Mehendi**: 10:00 AM – 2:00 PM (Banquet Hall)
-   - Dress Code: Light green / Peach hue 🦚🌿
+   - Color Hue: Light Green / Peach
 2. **Tilak Ceremony**: 3:00 PM (Banquet Hall)
    - Dress Code: Festive Indian Attire 🪔✨
 3. **Engagement & Sangeet**: 7:30 PM onwards (7:30 PM – 11:00 PM, Banquet Hall)
-   - Dress Code: Shimmer darks 💍✨
+   - Color Hue: Dark shades and Sparkles
 
 ### 9th December 2026 (Wedding Day)
-1. **Haldi Ceremony**: 10:00 AM – 1:00 PM (Banquet Hall)
-   - Dress Code: Sky blue / Rani Pink hue 🌻🌼 (For men: Kurta and Lungi)
-2. **Baarat Procession**: 3:30 PM (Hotel Sea N Rock)
+1. **Haldi Ceremony**: 9:00 AM – 11:00 AM (Banquet Hall)
+   - Color Hue: Sky blue / Pink
+2. **Baarat Procession**: 2:00 PM onwards (Hotel Sea N Rock)
    - Dress Code: Royal Festive Indian 🎺🥁
 3. **Wedding Muhurat**: 4:00 PM – 7:00 PM (Open Air)
-   - Dress Code: Traditional attire — Light & Dark colors 🌸🔥
+   - Color Hue: Traditional Indian Festive wear
 4. **Reception**: 8:30 PM onwards (Open Air)
-   - Dress Code: Traditional attire — Light & Dark colors 🌷🥂
+   - Color Hue: Traditional Indian Festive wear
    - Note: Shadi followed by reception from 8:00 PM onwards so clothes remain the same.
 
 ---
