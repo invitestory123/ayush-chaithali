@@ -1,4 +1,4 @@
-# Customer Editing Guide — Chaitali & Ayush Wedding Invitation
+# Customer Editing Guide — Ayush & Chaitali Wedding Invitation
 
 Hand-painted luxury watercolour storybook invitation featuring an animated wax seal video opener, couple portraits, scratch-to-reveal wedding date card, live countdown timer, 2-day wedding functions itinerary with custom illustrations and dress code hues, Hotel Sea N Rock venue with Google Maps location, and interactive lantern wishes.
 
@@ -6,8 +6,8 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
 
 ## Wedding Overview
 
-- **Bride**: Chaitali Poojari (D/O Shri. Ramesh Poojari & Shrimati. Sarojini Poojari)
 - **Groom**: Ayush Rai (S/O Shri. Vishnudeo Rai & Shrimati. Neelam Rai)
+- **Bride**: Chaitali Poojari (D/O Shri. Ramesh Poojari & Shrimati. Sarojini Poojari)
 - **Wedding Date**: Wednesday, 9th December 2026
 - **Prior Functions**: Tuesday, 8th December 2026
 - **Venue**: Hotel Sea N Rock, Thane Ghodbunder Road, Western Express Highway, Mira Road East, Mumbai, Maharashtra 401107
@@ -43,8 +43,8 @@ Hand-painted luxury watercolour storybook invitation featuring an animated wax s
 - Data configured in: `editable/wedding-data.js` (includes `scratchCard.weddingAlert` displayed in gold above countdown)
 - Custom illustrations and assets in: `editable/assets/`
   - `ganpati.png`: Lord Ganesha auspicious blessing photo
-  - `portrait-bride.jpg`: Bride portrait (Chaitali)
   - `portrait-groom.jpg`: Groom portrait (Ayush)
+  - `portrait-bride.jpg`: Bride portrait (Chaitali)
   - `illustration-mehendi.jpg`: Mehendi ceremony illustration
   - `illustration-tilak.jpg`: Tilak ceremony illustration
   - `illustration-sangeet.jpg`: Engagement & Sangeet illustration

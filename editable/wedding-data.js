@@ -1,6 +1,6 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for ever-after-bloom
- * Chaitali Poojari & Ayush Rai Wedding Invitation
+ * Ayush Rai & Chaitali Poojari Wedding Invitation
  */
 
 window.WEDDING_DATA = {
@@ -9,8 +9,8 @@ window.WEDDING_DATA = {
     groom: "Ayush",
     brideFull: "Chaitali Poojari",
     groomFull: "Ayush Rai",
-    initials: "C & A",
-    title: "Chaitali & Ayush",
+    initials: "A & C",
+    title: "Ayush & Chaitali",
   },
   dateISO: "2026-12-09T16:00:00+05:30",
   dateLabel: "Wednesday, 9 December 2026",
@@ -184,7 +184,7 @@ window.WEDDING_DATA = {
     subtitle: "For Being Part of Our Story",
     line1: "With warm hearts and deepest gratitude,",
     line2: "Thank you for your love, blessings, and warm wishes as we begin our forever.",
-    signoff: "With all our love, Chaitali & Ayush",
+    signoff: "With all our love, Ayush & Chaitali",
     date: "Wednesday, 9th December 2026",
   },
   images: {
@@ -232,11 +232,11 @@ window.openCalendarModal = function(e) {
   var w = window.WEDDING_DATA || {};
   var bride = (w.couple && (w.couple.brideFull || w.couple.bride)) || 'Chaitali Poojari';
   var groom = (w.couple && (w.couple.groomFull || w.couple.groom)) || 'Ayush Rai';
-  var title = (w.couple && w.couple.bride && w.couple.groom) ? (w.couple.bride + ' & ' + w.couple.groom + ' — Wedding & Reception') : 'Chaitali & Ayush — Wedding & Reception';
+  var title = (w.couple && w.couple.groom && w.couple.bride) ? (w.couple.groom + ' & ' + w.couple.bride + ' — Wedding & Reception') : 'Ayush & Chaitali — Wedding & Reception';
   var venueName = (w.venue && w.venue.name) || 'Hotel Sea N Rock';
   var venueAddr = (w.venue && w.venue.address) || 'Thane Ghodbunder Road, Western Express Highway, Mira Road East, Mumbai, Maharashtra 401107';
   var fullLoc = venueName + ', ' + venueAddr;
-  var desc = 'Join us to celebrate the wedding & reception of ' + bride + ' and ' + groom + ' at ' + venueName + ', Mumbai.';
+  var desc = 'Join us to celebrate the wedding & reception of ' + groom + ' and ' + bride + ' at ' + venueName + ', Mumbai.';
   
   // 9 Dec 2026 16:00 IST = 10:30 UTC. End: 23:00 IST = 17:30 UTC
   var start = '20261209T103000Z';
